@@ -32,7 +32,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        Hello
+        <Output value={this.state.text} />
       </div>
     );
   }
